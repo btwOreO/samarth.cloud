@@ -187,3 +187,26 @@ const container = document.querySelector("#body"),
     },
     retina_detect: !0
   });
+
+toggle.addEventListener('change', function () {
+  if (!toggle.checked) {
+    container.className = 'light';
+    part.style.backgroundColor = "#d3d3d3";
+    kofiWidgetOverlay.draw('btwOreo', {
+      'type': 'floating-chat',
+      'floating-chat.donateButton.text': 'Support me',
+      'floating-chat.donateButton.background-color': '#00b9fe',
+      'floating-chat.donateButton.text-color': '#fff'
+    });
+  }
+  else {
+    container.className = 'dark';
+    part.style.backgroundColor = "#161616";
+    kofiWidgetOverlay.draw('btwOreo', {
+      'type': 'floating-chat',
+      'floating-chat.donateButton.text': 'Support me',
+      'floating-chat.donateButton.background-color': '#323842',
+      'floating-chat.donateButton.text-color': '#fff'
+    });
+  }
+});
