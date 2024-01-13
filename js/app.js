@@ -195,7 +195,7 @@ toggle.addEventListener('change', function () {
     kofiWidgetOverlay.draw('btwOreo', {
       'type': 'floating-chat',
       'floating-chat.donateButton.text': 'Support me',
-      'floating-chat.donateButton.background-color': '#00b9fe',
+      'floating-chat.donateButton.background-color': '#7F00FF',
       'floating-chat.donateButton.text-color': '#fff'
     });
   }
@@ -205,7 +205,7 @@ toggle.addEventListener('change', function () {
     kofiWidgetOverlay.draw('btwOreo', {
       'type': 'floating-chat',
       'floating-chat.donateButton.text': 'Support me',
-      'floating-chat.donateButton.background-color': '#323842',
+      'floating-chat.donateButton.background-color': '#734F96',
       'floating-chat.donateButton.text-color': '#fff'
     });
   }
